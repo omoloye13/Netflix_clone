@@ -1,0 +1,323 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+
+}
+.container{
+    background-size: cover;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url("../images/netflix_bg.jpg");
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link{
+margin-right: 5em;
+margin-top: 2.5em;
+}
+.nav-link a{
+    text-decoration: none;
+    background-color: #e50914;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    width: 150px;
+    height: 15px;
+    padding: 0.2em;
+    border-radius: 5px;
+    border: solid black 2px;
+    outline: #fff solid 2px;  
+}
+.nav-link a:hover{
+    border: none;
+    outline: none;
+    padding: 0.2em;
+}
+.logo{
+    padding: 0.8em;
+    margin-top: 1em;
+}
+.logo img{
+    width: 45%;
+    height: 8vh;
+    margin-left: 3em;
+}
+/* HERO STYLES */
+.hero_container{
+    /* display: flex;
+    justify-content: center; */
+    margin-top: 8em;
+    text-align: justify;
+
+}
+.hero_header{
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 45px;
+}
+.header{
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 0.2em;
+}
+.hero_para{
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+.hero_form{
+    display: flex;
+    margin-top: 1em;
+    width: 50%;
+    margin: auto;
+    margin-top: 1em;
+}
+.hero_pills a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 0.5em;
+    
+
+}
+.mail{
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0.5em;
+    width: 500px;
+    height: 10vh;
+}
+.hero-icon{
+    color: white;
+    width: 10%;
+    height: 5vh;
+    padding: 1.2em;
+    /* margin-right: 1em; */
+}
+.hero_pills{
+    display: flex;
+    background-color: #e50914;
+    height: 10vh;
+    width: 250px;
+}
+/* STORY CARD */
+.story_card{
+    background-color: black;
+    margin-top: 0em;
+    border-top: solid 8px #222;
+    display: flex;
+    justify-content: space-evenly;
+    height: 70vh;
+}
+.story_card_left{
+    height: 40vh;
+    width: 40%;
+    padding: 2em;
+    margin-top: 6em;
+    margin-left: 8em;
+}
+.story_card_left h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+}
+.story_card_left p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+}
+.story_card_right{
+    /* border: solid white; */
+    height: 50vh;
+    margin-top: 2em;
+    margin-right: 6em;
+    display: grid;
+	place-items: center;
+}
+.tv_anime_container {
+	width: 30rem;
+	height: 23.4rem;
+	position: relative;
+}
+.story_card_img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+
+.tv_anime {
+	position: absolute;
+	top: 0.8rem;
+	left: 4rem;
+	width: 22.1rem;
+	height: 21rem;
+}
+/* CARD DOWNLOAD */
+.story_card_{
+    background-color: black;
+    margin-top: 0em;
+    border-top: solid 10px #222;
+    display: flex;
+    justify-content: space-evenly;
+    height: 70vh;
+    /* border: solid white; */
+
+}
+.card_right{
+    height: 40vh;
+    width: 50%;
+    padding: 2em;
+    margin-top: 6em;
+    margin-right: 0em;
+}
+.card_right h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+}
+.card_right p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+}
+.download_container {
+	position: relative;
+}
+
+.download_container img {
+	width: 100%;
+	height: 100%;
+}
+.download_animation_container {
+	display: grid;
+	grid-template-columns: 4rem 1fr 5rem;
+	width: 60%;
+	height: 8rem;
+	padding: 1rem;
+	align-items: center;
+	border: 2px solid rgba(255, 255, 255, 0.25);
+	border-radius: 1rem;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 5%;
+	background: black;
+    /* border: solid blue; */
+
+}
+
+.download_animation_container .poster {
+	height: 90%;
+}
+.download_animation_container .download_gif {
+	height: 90%;
+}
+
+.download_animation_container .text_container .title {
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+}
+
+.download_animation_container .text_container .downloading {
+	font-size: 1.2rem;
+	color: #0071eb;
+    text-transform: capitalize;
+}
+
+.download_animation_container .text_container {
+	padding-left: 2rem;
+}
+
+/* CARD TEXT STYLES */
+.row{
+    background-color: black;
+    border-top: 8px solid #222;
+    height: 40vh;
+}
+.card_text{
+    width: 50%;
+    height: 30vh;
+    padding: 2em;
+    margin-left: 7em;
+    margin-top: 1em;
+}
+.card_text h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+}
+.card_text p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 26px;
+}
+/* KIDS CARD STYLE */
+.kids_container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    border-top: solid 8px #222;
+    height: 100vh;
+}
+.kids_text{
+    /* border: solid white; */
+    width: 47%;
+    height: 50vh;
+    padding: 1em;
+    margin-top: 8em;
+    margin-right: 2em;
+}
+.kids_text h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+}
+.kids_text p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 26px;
+}
+.kids_img{
+    /* border: solid white; */
+    width: 40%;
+    height: 65vh;
+    margin-top: 8em;
+    /* padding: 1em; */
+}
+.kids_img img{
+    width: 90%;
+    height: 60vh;
+    margin-left: 3em;
+}
+/* FAQs */
+.faq_accordion_section{
+    background-color: black;
+    border-top: solid 8px #222;
+    height: 100vh;
+}
+.faq_accordion{
+    border: solid white;
+    width: 60%;
+    margin: auto;
+    margin-top: 2em;
+}
+.faq_accordion h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+}
